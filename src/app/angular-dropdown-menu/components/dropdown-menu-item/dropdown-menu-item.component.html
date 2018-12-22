@@ -1,0 +1,16 @@
+<ul class="dropdown">
+    <li *ngFor="let item of menuItems">
+        <span class="dropdown-title" (mouseenter) ="item.isActive = true" (mouseleave) ="item.isActive = false" (click)="onClick(item)">
+            <ng-container *ngIf="item.icon">
+                <i class="material-icons">
+                    {{ item.icon }}
+                </i>
+            </ng-container>
+            <ng-container *ngIf="item.title">
+                {{ item.title }}
+            </ng-container>
+        </span>
+
+        <dropdown-menu-item [class.active]="item.isActive" (mouseenter) ="item.isActive = true" (mouseleave) ="item.isActive = false" (actionRun)="onActionRun($event)" class="dropdown-content" *ngIf="item.menuItems" [menuItems]="item.menuItems"></dropdown-menu-item>
+    </li>
+</ul> 

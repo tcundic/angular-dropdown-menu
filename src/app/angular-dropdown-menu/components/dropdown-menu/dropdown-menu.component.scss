@@ -1,0 +1,20 @@
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+.menu ::ng-deep .dropdown .dropdown
+{
+    position: absolute;
+    width: 150px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    z-index: 11;
+}
+
+.menu ::ng-deep .dropdown .dropdown .dropdown {
+    top: 0;
+    left: 150px;
+}
