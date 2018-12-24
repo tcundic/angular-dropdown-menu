@@ -44,8 +44,6 @@ public fileMenu: MenuItem[] = [
 // in your template:
 <div class="dropdown-menu-container">
   <dropdown-menu [items]="fileMenu" (actionRun)="onMenuAction($event)"></dropdown-menu>
-  <dropdown-menu [items]="optionsMenu" (actionRun)="onMenuAction($event)"></dropdown-menu>
-  <dropdown-menu [items]="multiLevelMenu" (actionRun)="onMenuAction($event)"></dropdown-menu>
 </div>
 
 // Add some styles:
