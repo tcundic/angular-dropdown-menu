@@ -15,14 +15,15 @@ npm install --save angular-dropdown-menu
 
 ### Import
 ```typescript
-import {DropdownMenuComponent, DropdownMenuItemComponent} from 'angular-dropdown-menu';
+import {AngularDropdownMenuModule} from 'angular-dropdown-menu';
 
-declarations: [
-    DropdownMenuComponent,
-    DropdownMenuItemComponent,
+imports: [
+    AngularDropdownMenuModule
 ]
 
-// in your main component define structure (for example):
+// in your main component define structure and import (for example):
+import {MenuItem} from 'angular-dropdown-menu';
+
 public fileMenu: MenuItem[] = [
     {
       title: 'File',
