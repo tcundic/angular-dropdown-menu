@@ -11,7 +11,9 @@ This module enables you to create arbitrary number of dropdown menu levels and, 
 npm install --save angular-dropdown-menu
 ```
 
-## Usage
+## Usage & Demo
+
+You can see demo of library here: [demo](https://tcundic.github.io/angular-dropdown-menu/)
 
 ### Import
 ```typescript
