@@ -12,8 +12,14 @@ npm install --save angular-dropdown-menu
 ```
 
 ## Usage & Demo
-
 You can see demo of library here: [demo](https://tcundic.github.io/angular-dropdown-menu/)
+
+### Properties of MenuItem interface
+- `action` (`?any`) - some value which will be bubbled to parent component when user click on menu
+- `isActive` (`?boolean`) - wether submenu is opened or not
+- `menuItems` (`MenuItem[]`) - JSON structure with menus children
+- `title` (`?string`) - Title of menu
+- `icon` (`?string`) - Material.io string code for <i> element
 
 ### Import
 ```typescript
