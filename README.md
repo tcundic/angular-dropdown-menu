@@ -19,7 +19,7 @@ You can see demo of library here: [demo](https://tcundic.github.io/angular-dropd
 - `isActive` (`?boolean`) - wether submenu is opened or not
 - `menuItems` (`MenuItem[]`) - JSON structure with menus children
 - `title` (`?string`) - Title of menu
-- `icon` (`?string`) - Material.io string code for <i> element
+- `icon` (`?string`) - Material.io string code for `<i>` element
 
 ### Import
 ```typescript
