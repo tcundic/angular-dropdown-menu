@@ -26,14 +26,14 @@ You have to install [material.io](https://material.io/) icons
 
 ### Import
 ```typescript
-import {AngularDropdownMenuModule} from 'angular-dropdown-menu';
+import {AngularDropdownMenuModule} from 'angular-dropdown-menu/dist';
 
 imports: [
     AngularDropdownMenuModule
 ]
 
 // in your main component define structure and import (for example):
-import {MenuItem} from 'angular-dropdown-menu';
+import {MenuItem} from 'angular-dropdown-menu/dist';
 
 public fileMenu: MenuItem[] = [
     {
